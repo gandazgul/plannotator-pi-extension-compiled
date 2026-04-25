@@ -1,0 +1,36 @@
+{
+  "name": "@gandazgul/plannotator-pi-extension-compiled",
+  "version": "1.0.0",
+  "description": "Compiled wrapper for @plannotator/pi-extension to support Deno consumption",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./server": "./dist/server.mjs",
+    "./assets": "./dist/assets.mjs"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist",
+    "plannotator.html",
+    "review-editor.html",
+    "plannotator.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "turndown": "^7.2.4",
+    "@joplin/turndown-plugin-gfm": "^1.0.64"
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": ">=0.53.0",
+    "@mariozechner/pi-agent-core": ">=0.53.0",
+    "@mariozechner/pi-ai": ">=0.53.0",
+    "@mariozechner/pi-tui": ">=0.53.0"
+  },
+  "devDependencies": {
+    "@plannotator/pi-extension": "0.19.0",
+    "esbuild": "^0.25.0"
+  }
+}
