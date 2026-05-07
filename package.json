@@ -3,6 +3,14 @@
   "version": "1.0.1",
   "description": "Compiled wrapper for @plannotator/pi-extension to support Deno consumption",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gandazgul/plannotator-pi-extension-compiled.git"
+  },
+  "homepage": "https://github.com/gandazgul/plannotator-pi-extension-compiled",
+  "bugs": {
+    "url": "https://github.com/gandazgul/plannotator-pi-extension-compiled/issues"
+  },
   "exports": {
     ".": "./dist/index.mjs",
     "./server": "./dist/server.mjs",
