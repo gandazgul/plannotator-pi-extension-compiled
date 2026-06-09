@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      id-token: write
     steps:
       - uses: actions/checkout@v4
 
@@ -75,3 +76,7 @@ jobs:
           git commit -m "auto-update: align to @plannotator/pi-extension@${UPSTREAM}"
           git tag "v${UPSTREAM}"
           git push origin main --tags
+
+      - name: Publish to npm
+        if: steps.check.outputs.skip == 'false'
+        run: npm publish --provenance --access public
