@@ -1,6 +1,6 @@
 {
   "name": "@gandazgul/plannotator-pi-extension-compiled",
-  "version": "0.19.27",
+  "version": "0.20.0",
   "description": "Compiled wrapper for @plannotator/pi-extension to support Deno consumption",
   "type": "module",
   "repository": {
@@ -38,7 +38,7 @@
     "@mariozechner/pi-tui": ">=0.53.0"
   },
   "devDependencies": {
-    "@plannotator/pi-extension": "0.19.27",
+    "@plannotator/pi-extension": "0.20.0",
     "esbuild": "^0.25.0"
   }
 }
