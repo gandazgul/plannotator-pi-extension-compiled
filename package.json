@@ -3,6 +3,7 @@
   "version": "0.20.1",
   "description": "Compiled wrapper for @plannotator/pi-extension to support Deno consumption",
   "type": "module",
+  "license": "MIT OR Apache-2.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gandazgul/plannotator-pi-extension-compiled.git"
@@ -25,6 +26,9 @@
     "plannotator.html",
     "review-editor.html",
     "plannotator.json",
+    "LICENSE",
+    "LICENSE-MIT",
+    "LICENSE-APACHE",
     "README.md"
   ],
   "dependencies": {

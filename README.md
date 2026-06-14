@@ -43,6 +43,12 @@ npm run build
 
 The build process uses `esbuild` to bundle the TypeScript source from `@plannotator/pi-extension` and patches Node.js built-in imports to use the `node:` prefix for Deno compatibility.
 
+## License
+
+This package is licensed under `MIT OR Apache-2.0`, matching the upstream `@plannotator/pi-extension` package.
+
+See [LICENSE](LICENSE), [LICENSE-MIT](LICENSE-MIT), and [LICENSE-APACHE](LICENSE-APACHE).
+
 ## Auto-Update Mechanism
 
 This repository includes a GitHub Action ([`auto-update.yml`](.github/workflows/auto-update.yml)) that:
