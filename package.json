@@ -1,6 +1,6 @@
 {
   "name": "@gandazgul/plannotator-pi-extension-compiled",
-  "version": "0.20.2",
+  "version": "0.20.3",
   "description": "Compiled wrapper for @plannotator/pi-extension to support Deno consumption",
   "type": "module",
   "license": "MIT OR Apache-2.0",
@@ -42,7 +42,7 @@
     "@mariozechner/pi-tui": ">=0.53.0"
   },
   "devDependencies": {
-    "@plannotator/pi-extension": "0.20.2",
+    "@plannotator/pi-extension": "0.20.3",
     "esbuild": "^0.25.0"
   }
 }
