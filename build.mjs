@@ -18,10 +18,10 @@ async function build() {
     const externals = [
         "turndown",
         "@joplin/turndown-plugin-gfm",
-        "@mariozechner/pi-coding-agent",
-        "@mariozechner/pi-agent-core",
-        "@mariozechner/pi-ai",
-        "@mariozechner/pi-tui",
+        "@earendil-works/pi-coding-agent",
+        "@earendil-works/pi-agent-core",
+        "@earendil-works/pi-ai",
+        "@earendil-works/pi-tui",
         "@openai/codex-sdk",
         "@anthropic-ai/claude-agent-sdk",
         "@opencode-ai/sdk"
