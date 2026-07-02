@@ -43,6 +43,6 @@
   },
   "devDependencies": {
     "@plannotator/pi-extension": "0.21.4",
-    "esbuild": "^0.25.0"
+    "esbuild": "^0.28.1"
   }
 }
